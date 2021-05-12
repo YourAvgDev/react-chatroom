@@ -67,7 +67,7 @@ function App() {
           <Channel user={user} db={db}></Channel>
         </div>
       ) : (
-        <div>
+        <div className="app-content">
           <Typography
             className="app-header"
             align="center"

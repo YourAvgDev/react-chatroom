@@ -26,7 +26,7 @@ export default function Header({ auth, user }) {
   };
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="sticky" style={{ position: "fixed" }}>
         <Toolbar>
           <QuestionAnswerIcon />
           <Typography variant="h6" className={classes.title}>
